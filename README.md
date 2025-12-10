@@ -4,9 +4,7 @@ Add any issues to https://github.com/planningalerts-scrapers/issues/issues
 
 ## To run the scraper
 
-```
-bundle exec ruby scraper.rb
-```
+    bundle exec ruby scraper.rb
 
 Set `MORPH_AUSTRALIAN_PROXY` to the url for an Australian proxy
 
