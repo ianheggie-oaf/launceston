@@ -9,7 +9,10 @@ source "https://rubygems.org"
 ruby "3.2.2"
 
 gem "mechanize", "~> 2.8.5"
-gem "nokogiri", "~> 1.16.8" # Latest version the platform supports
+# update to '>= 1.18.4'
+# update to '>= 1.18.8'
+# update to '>= 1.18.9'
+gem "nokogiri", "1.18.3", force_ruby_platform: true # Latest version the platform supports
 gem "rake", "~> 12.3"
 gem "rspec", "~> 3.0"
 gem "rubocop"
