@@ -50,16 +50,6 @@ GEM
     nokogiri (1.18.10)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.18.10-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.10-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.10-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.10-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.10-x86_64-linux-gnu)
-      racc (~> 1.4)
     parallel (1.27.0)
     parser (3.3.10.2)
       ast (~> 2.4.1)
@@ -108,6 +98,8 @@ GEM
       simplecov
       terminal-table
     simplecov-html (0.13.2)
+    sqlite3 (1.6.9)
+      mini_portile2 (~> 2.8.0)
     sqlite3 (1.6.9-aarch64-linux)
     sqlite3 (1.6.9-arm-linux)
     sqlite3 (1.6.9-arm64-darwin)
@@ -126,11 +118,17 @@ GEM
 
 PLATFORMS
   aarch64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
   arm-linux
+  arm-linux-gnu
+  arm-linux-musl
   arm64-darwin
+  ruby
   x86-linux
   x86_64-darwin
-  x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   mechanize (~> 2.8.5)
