@@ -1,0 +1,3 @@
+ignore:
+  - dependency-name: "nokogiri"
+    versions: [">= 1.17.0"]
