@@ -132,7 +132,7 @@ PLATFORMS
 
 DEPENDENCIES
   mechanize (~> 2.8.5)
-  nokogiri (~> 1.16.5)
+  nokogiri (~> 1.16.8)
   rake (~> 12.3)
   rspec (~> 3.0)
   rubocop
